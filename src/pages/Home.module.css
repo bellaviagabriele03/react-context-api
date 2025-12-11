@@ -1,0 +1,31 @@
+.relativeGB {
+    position: relative;
+}
+
+.abButtonGB {
+    position: absolute;
+}
+
+.ButtonGbRight {
+    top: 50%;
+    right: -70px;
+}
+
+.ButtonGbLeft {
+    top: 50%;
+    left: -70px;
+}
+
+.scrittaAbsolute {
+    position: absolute;
+    right: 0;
+    top: 5px;
+    background-color: blueviolet;
+}
+
+.scrittaDown {
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    background-color: burlywood;
+}
