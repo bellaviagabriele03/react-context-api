@@ -23,15 +23,16 @@ export default function Products() {
             </div >
             <div className="container mt-4">
                 <div className="row g-3">
-                    {products.map((product)=>{
+                    {products.map((product) => {
                         return (
                             <div key={product.id} className="col-3">
-                                <div className="card bg-secondary text-white h-100">
-                                    <div className="card-body text-center d-flex flex-column">
+                                <div className="card bg-dark text-white h-100 p-3">
+
+                                    <div className="card-body text-center d-flex flex-column justify-content-center">
                                         <img className="card-img" src={product.image} alt="" />
                                         <h5 className="card-title ">{product.title}</h5>
-                                        <span className="card-text ">{product.price} €</span>
-                                        <Link to={`/products/${product.id}`} className="btn btn-success">Vedi dettagli</Link>
+                                        <span className="card-text">{product.price} €</span>
+                                        <Link to={`/products/${product.id}`} className="btn badge text-bg-info mt-2">Vedi dettagli</Link>
                                     </div>
                                 </div>
                             </div>
